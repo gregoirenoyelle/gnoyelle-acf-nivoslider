@@ -7,6 +7,8 @@ Version: 1.0
 Author: Grégoire Noyelle
 Author URI: http://wwww.gregoirenoyelle.com
 License: GPL2
+GitHub Plugin URI: https://github.com/gregoirenoyelle/gnoyelle-acf-nivoslider
+GitHub Branch: master
 */
 
 // If this file is called directly, abort.
