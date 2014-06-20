@@ -33,11 +33,13 @@ function acfnivo_scripts(){
 	wp_register_script('nivo-js', ACFN_GN_PLUGIN_URL . 'Nivo-Slider/jquery.nivo.slider.js', array('jquery'),'3.2',true);
 	wp_register_script('nivo-pack-js', ACFN_GN_PLUGIN_URL . 'Nivo-Slider/jquery.nivo.slider.pack.js', array('jquery'),'3.2',true);
 	wp_register_script('acfnivo-js', ACFN_GN_PLUGIN_URL . 'js/acfnivo.js', array('jquery'),'1.0',true);
+	wp_register_script('acftab-js', ACFN_GN_PLUGIN_URL . 'js/acftab.js', array('jquery'),'1.0',true);
 	// place for conditionnal
 	// wp_enqueue_script('acfnivo-js');
 	if ( is_page_template('p-temp-mod.php' ) ) :
 		wp_enqueue_script('nivo-js');
 		wp_enqueue_script('nivo-pack-js');
+		wp_enqueue_script('acftab-js');
 	endif;
 
 }
